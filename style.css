@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'digital';
-    src: url('digital.ttf') format('truetype'),
+    src: url('digital-7.regular.ttf') format('truetype'),
         /* Safari, Android, iOS */
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 #answer_display {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'digital', sans-serif;
     font-size: 25px;
 
     grid-area: digidisplay;
