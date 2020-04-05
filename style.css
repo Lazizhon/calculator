@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+@font-face {
+    font-family: 'digital';
+    src: url('digital.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+}
+
+body {
+    margin: 0 auto;
+    background-color: #56e0ef;
+
+    display: grid;
+    place-content: center;
+    padding-top: 5%;
+
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "digidisplay digidisplay digidisplay digidisplay"
+        "clear devide    multiply    minus"
+        "seven eight nine plus"
+        "four five six plus"
+        "one two three equal"
+        "zero zero decimal equal";
+    grid-gap: 10px;
+    width: 550px;
+    height: 550px;
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #4dcad7, #5cf0ff);
+    box-shadow: 8px 8px 15px #2b7078,
+        -8px -8px 15px #81ffff;
+}
+
+#answer_display {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+
+    grid-area: digidisplay;
+    border-radius: 23px;
+    background: #56e0ef;
+    box-shadow: inset 8px 8px 15px #2b7078,
+        inset -8px -8px 15px #81ffff;
+    color: black;
+}
+
+#clear_btn {
+    grid-area: clear;
+    background: linear-gradient(145deg, #5cf0ff, #4dcad7);
+}
+
+#divide_btn {
+    grid-area: devide;
+}
+
+#multiply_btn {
+    grid-area: multiply;
+}
+
+#minus_btn {
+    grid-area: minus;
+}
+
+#plus_btn {
+    grid-area: plus;
+}
+
+#equal_btn {
+    grid-area: equal;
+}
+
+#decimal_btn {
+    grid-area: decimal;
+}
+
+#zero_btn {
+    grid-area: zero;
+}
+
+#one_btn {
+    grid-area: one;
+}
+
+#two_btn {
+    grid-area: two;
+}
+
+#three_btn {
+    grid-area: three;
+}
+
+#four_btn {
+    grid-area: four;
+}
+
+#five_btn {
+    grid-area: five;
+}
+
+#six_btn {
+    grid-area: six;
+}
+
+#seven_btn {
+    grid-area: seven;
+}
+
+#eight_btn {
+    grid-area: eight;
+}
+
+#nine_btn {
+    grid-area: nine;
+}
