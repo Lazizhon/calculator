@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'digital';
-    src: url('digital-7.regular.ttf') format('truetype'),
+    src: url('DigitalNormal-xO6j.otf')
         /* Safari, Android, iOS */
 }
 
@@ -25,7 +25,7 @@ body {
         "four five six plus"
         "one two three equal"
         "zero zero decimal equal";
-    grid-gap: 10px;
+    grid-gap: 30px;
     width: 550px;
     height: 550px;
 }
@@ -33,10 +33,14 @@ body {
 .button {
     font-family: 'Orbitron', sans-serif;
     font-size: 25px;
-    border-radius: 23px;
-    background: linear-gradient(145deg, #4dcad7, #5cf0ff);
+    border-radius: 10px;
+    background: linear-gradient(145deg, #5cf0ff, #4dcad7);
+
     box-shadow: 8px 8px 15px #2b7078,
         -8px -8px 15px #81ffff;
+}
+.button:active{
+    background: linear-gradient(145deg, #4dcad7, #5cf0ff);
 }
 
 #answer_display {
@@ -44,7 +48,7 @@ body {
     font-size: 25px;
 
     grid-area: digidisplay;
-    border-radius: 23px;
+    border-radius: 50px;
     background: #56e0ef;
     box-shadow: inset 8px 8px 15px #2b7078,
         inset -8px -8px 15px #81ffff;
@@ -53,7 +57,6 @@ body {
 
 #clear_btn {
     grid-area: clear;
-    background: linear-gradient(145deg, #5cf0ff, #4dcad7);
 }
 
 #divide_btn {
