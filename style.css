@@ -24,7 +24,7 @@ body {
         "seven eight nine plus"
         "four five six plus"
         "one two three equal"
-        "zero zero decimal equal";
+        "zero decimal back equal";
     grid-gap: 30px;
     width: 550px;
     height: 550px;
@@ -78,6 +78,10 @@ body {
 
 #equal_btn {
     grid-area: equal;
+}
+
+#back_btn {
+    grid-area: back;
 }
 
 #decimal_btn {
