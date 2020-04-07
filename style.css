@@ -39,20 +39,21 @@ body {
     box-shadow: 8px 8px 15px #2b7078,
         -8px -8px 15px #81ffff;
 }
-.button:active{
+
+.button:active {
     background: linear-gradient(145deg, #4dcad7, #5cf0ff);
 }
 
 #answer_display {
     font-family: 'digital', sans-serif;
-    font-size: 25px;
-
+    font-size: 33px;
     grid-area: digidisplay;
     border-radius: 50px;
     background: #56e0ef;
-    box-shadow: inset 8px 8px 15px #2b7078,
-        inset -8px -8px 15px #81ffff;
+    box-shadow: inset 8px 8px 15px #2b7078, inset -8px -8px 15px #81ffff;
     color: black;
+    padding-right: 14px;
+    padding-top: 10px;
 }
 
 #clear_btn {
